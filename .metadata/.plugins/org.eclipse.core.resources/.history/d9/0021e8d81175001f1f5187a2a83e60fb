@@ -1,0 +1,27 @@
+package aapr.consultorio.model;
+
+public class Consultorio {
+
+	//Datos del paciente
+	private String nombrePaciente;
+	private String direccionPaciente;
+	private Long telefono;
+	private String correoPaciente;
+	private String curp;
+	private Long numeroSeguroSocial;
+	private String alergias;
+	private String tipoSangre;
+	private String enfermedades;
+	private String medicamentos;
+	private String motivoConsulta;
+	
+	//Contacto de emergencia
+	private String contactoEmergencia;
+	private Long telefonoEmergencia;
+	private String parentesco;
+	private String direccion;
+	
+	//información del consultorio 
+	private String nombreDoctor;
+	
+}

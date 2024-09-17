@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: consultorio
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/consultorio_pacheco
+    username: root
+    password: SendoHammon1@
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+      #ddl-auto:update

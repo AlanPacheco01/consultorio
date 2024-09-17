@@ -1,0 +1,5 @@
+package aapr.consultorio.repository;
+
+public interface ConsultorioRepository {
+
+}

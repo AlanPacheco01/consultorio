@@ -1,0 +1,27 @@
+package aapr.consultorio.model;
+
+public class Doctor extends Consultorio{
+private String diagnostico;
+private String medicamentos;
+private String dieta;
+private String incapacidad;
+
+@Entity
+@Table(name="Diagnostico_Doctor")
+public Doctor(Long id, String nombrePaciente, Byte edad, String direccionPaciente, Long telefono, String correoPaciente,
+		String curp, Long numeroSeguroSocial, String alergias, String tipoSangre, String enfermedades,
+		String medicamentos, String motivoConsulta, String contactoEmergencia, Long telefonoEmergencia,
+		String parentesco, String direccion, String nombreDoctor, Long horaCita, String diagnostico,
+		String medicamentos2, String dieta, String incapacidad) {
+	super(id, nombrePaciente, edad, direccionPaciente, telefono, correoPaciente, curp, numeroSeguroSocial, alergias,
+			tipoSangre, enfermedades, medicamentos, motivoConsulta, contactoEmergencia, telefonoEmergencia, parentesco,
+			direccion, nombreDoctor, horaCita);
+	this.diagnostico = diagnostico;
+	medicamentos = medicamentos2;
+	this.dieta = dieta;
+	this.incapacidad = incapacidad;
+}
+
+
+
+}

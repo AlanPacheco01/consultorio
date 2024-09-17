@@ -1,0 +1,63 @@
+package aapr.consultorio.model;
+
+public class Consultorio {
+
+	//Datos del paciente
+	private Long id;
+	private String nombrePaciente;
+	private Byte edad;
+	private String direccionPaciente;
+	private Long telefono;
+	private String correoPaciente;
+	private String curp;
+	private Long numeroSeguroSocial;
+	private String alergias;
+	private String tipoSangre;
+	private String enfermedades;
+	private String medicamentos;
+	private String motivoConsulta;
+	
+	//Contacto de emergencia
+	private String contactoEmergencia;
+	private Long telefonoEmergencia;
+	private String parentesco;
+	private String direccion;
+	
+	//información del consultorio 
+	private String nombreDoctor;
+	private Long horaCita;
+
+	
+//Se genera un constructor vacío para la sobrecarga de métodos
+public Consultorio() {
+	
+}
+//Con la información anterior se genera el constructor
+	public Consultorio(Long id, String nombrePaciente, Byte edad, String direccionPaciente, Long telefono,
+			String correoPaciente, String curp, Long numeroSeguroSocial, String alergias, String tipoSangre,
+			String enfermedades, String medicamentos, String motivoConsulta, String contactoEmergencia,
+			Long telefonoEmergencia, String parentesco, String direccion, String nombreDoctor, Long horaCita) {
+		super();
+		this.id = id;
+		this.nombrePaciente = nombrePaciente;
+		this.edad = edad;
+		this.direccionPaciente = direccionPaciente;
+		this.telefono = telefono;
+		this.correoPaciente = correoPaciente;
+		this.curp = curp;
+		this.numeroSeguroSocial = numeroSeguroSocial;
+		this.alergias = alergias;
+		this.tipoSangre = tipoSangre;
+		this.enfermedades = enfermedades;
+		this.medicamentos = medicamentos;
+		this.motivoConsulta = motivoConsulta;
+		this.contactoEmergencia = contactoEmergencia;
+		this.telefonoEmergencia = telefonoEmergencia;
+		this.parentesco = parentesco;
+		this.direccion = direccion;
+		this.nombreDoctor = nombreDoctor;
+		this.horaCita = horaCita;
+	}
+	
+	
+}
